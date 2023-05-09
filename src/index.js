@@ -6,24 +6,9 @@ import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.css";
 import Users from './components/users';
 
-// const Post = (props) => {
-
-//   return <div>Post: {props.title}</div>;
-// };
-
-// const element = <Post title={'Hello World'} />;
-
-import Counter from "./components/counter";
-
-
-const App = () => {
-  return <Counter />
-}
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( 
   <React.StrictMode>
-    <App />
     <Users />
   </React.StrictMode>
 );
